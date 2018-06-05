@@ -1,0 +1,211 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+:focus {
+    outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+
+
+html{
+    background-color:#EDEDED;;
+}
+.wrap{
+    /*margin:0 auto;*/
+    width:6.4rem; 
+    height:100%;
+    /*background-color:#EDEDED;*/
+}
+    header{
+        position:fixed;
+        top:0rem;
+        z-index:99;
+        background-color:#51BBDB;
+    }
+        .header-content{
+            padding-top:0.16rem;
+            padding-bottom: 0.16rem;
+            /*margin-left:0.3rem;*/
+        }
+            .header-return{
+                float:left;
+                width:1.94rem;
+                font-size:0.54rem;               
+            }
+                .header-return a{
+                    margin-left:0.45rem;
+                    color:#F9F0F5;
+                }
+            .header-title{
+                float:left;
+                width:2.47rem;
+                font-size:0.26rem;
+                text-align: center;
+                line-height: 0.36rem;
+                color:#F9F0F5;
+
+            }
+                .header-title h1{
+                    position:relative;
+                    top:0.1rem;
+                }
+            .header-menu{
+                float:left;
+                width: 1.97rem;
+            }
+                .header-menu p{
+                    position: relative;
+                    top:0.19rem;
+                    display:block;
+                    float:left;
+                    width:1.85rem;
+                    font-size:0.20rem;   
+                    text-align: right;
+                    /*line-height: 0.88rem;*/
+                    color:#F9F0F5;
+                }
+        .main{
+            width: 6.4rem;
+            height: 100%;
+            margin-top:0.88rem;
+        }
+            .main-content{
+                font-size:0.2rem;
+                color:#3D3D3D;
+                background-color:#ffffff;
+            }
+                .main-content ul{
+                    list-style:none;
+                }
+                    .main-content ul li{
+                        border-bottom:1px solid #DCDCDC;
+                        display: block;
+                        width: 6.03rem;
+                        /*line-height: 0.52rem;*/
+                        margin:0 auto;
+
+                    }
+                    .main-content ul li:last-child{
+                        border-bottom:0;
+                    }
+                        .main-content ul li p{
+                            display: block;
+                            width: 2.23rem;
+                            float:left;
+                            font-size:0.2rem;
+                            padding-left:0.36rem;
+                            line-height:0.5rem;
+                        }
+                        .main-content ul li input{
+                            position:relative;
+                            top:0.06rem;
+                            float:left;
+                            border:0;
+                            background-color:#ffffff;
+                            color:#DCDCDC;
+                        }
+                            .main-content ul li select{
+                                appearance:none;
+                                -webkit-appearance: none;
+                                -moz-appearance: none;
+                                /*opacity: 0;*/
+                                border:0;
+                                background-color:#ffffff;
+                                border-bottom:1px solid #666666;
+                                background-image: url(../images/selectDelta.png);
+                                background-repeat:no-repeat;
+                                background-position: 2.85rem 0.11rem;
+                                width:3.27rem;
+                                color:#666666;
+                            }

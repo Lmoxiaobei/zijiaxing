@@ -1,0 +1,143 @@
+a{text-decoration: none;}
+.top{
+	width: 6.4rem;
+	background-color: #50bbdb;
+	height: 0.88rem;
+}
+.top .iconfont{
+	font-size: 0.45rem;
+	color: #fff;
+	display: block;
+	padding-top: 0.22rem;
+	padding-left: 0.44rem;
+	float: left;
+}
+.top p{
+	font-size: 0.28rem;
+	color: #fff;
+	padding-top: 0.32rem;
+	margin-left: 1.74rem;
+	float: left;
+}
+.top span{
+	font-size: 0.24rem;
+	float: left;
+	color: #fff;
+	padding-top: 0.32rem;
+	margin-left: 1.9rem;
+}
+.zhong{
+	height: 0.82rem;
+	background-color: #fff;
+	border-bottom: 1px solid #dcdcdc;
+}
+.zhong .iconfont{
+	font-size: 0.34rem;
+	color: #50bbdb;
+	float: left;
+	margin-left: 2.09rem;
+	margin-top: 0.22rem;
+}
+.zhong p{
+	font-size: 0.24rem;
+	color: #50bbdb;
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.42rem;
+}
+.zhifu{width: 6.4rem;}
+.zhifu-1{
+			width: 5.67rem;
+			border-bottom: 1px dashed #dcdcdc;
+			padding-bottom: 0.26rem;
+			margin: 0 auto;
+
+			display: block;
+}
+.zhifu-1-1{float: left;}
+.zhifu-1-1 p{
+font-size: 0.24rem;
+margin-top: 0.27rem;
+}
+.zhifu-1-2{
+	float: right;
+}
+.zhifu-1-2 p{
+	font-size: 0.24rem;
+	margin-top: 0.27rem;
+	font-weight: bold;
+	text-align: right;
+}
+
+.zhifu-2{
+	border-bottom: 1px dashed #dcdcdc;
+	width: 5.67rem;
+	margin:0 auto;
+	padding-bottom: 0.2rem;
+}
+
+.zhifu-2-1{float: left;}
+.zhifu-2-1 p{
+font-size: 0.24rem;
+margin-top: 0.27rem;
+}
+.zhifu-2-2{float: right;}
+.zhifu-2-2 p{
+	font-size: 0.24rem;
+	margin-top: 0.27rem;
+	font-weight: bold;
+	text-align: right;
+}
+.zhifu-2-2 .zhifu-2-2-p{
+	font-size: 0.28rem;
+}
+
+
+.zhifu-3{
+	width: 5.67rem;
+	margin:0 auto;
+	padding-bottom: 0.53rem;
+}
+
+.zhifu-3-1{float: left;}
+.zhifu-3-1 p{
+font-size: 0.24rem;
+margin-top: 0.27rem;
+}
+.zhifu-3-2{float: right;}
+.zhifu-3-2 p{
+	font-size: 0.24rem;
+	margin-top: 0.27rem;
+	font-weight: bold;
+	text-align: right;
+}
+.ganxie{
+	width: 6.4rem;
+	background-color: #f6f6f6;
+	padding-bottom: 0.98rem;
+}
+.ganxie-1{
+	width: 5.43rem;
+	display: block;
+	padding-top: 0.57rem;
+	margin-left: 0.44rem;
+
+}
+.ganxie p{
+	font-size: 0.22rem;
+	line-height: 0.45rem;
+	color: #333;
+}
+.ganxie-2{
+	text-align: center;
+}
+.ganxie-2 a{
+	color: #50bbdb;
+	border:1px solid #e5e5e5;
+	border-radius: 7px 7px 7px 7px;
+	font-size: 0.32rem;
+	padding-left: 1.74rem;
+	padding-top: 0.14rem;
+	padding-right: 1.74rem;
+	padding-bottom: 0.14rem;
+}

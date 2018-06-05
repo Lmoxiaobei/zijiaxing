@@ -1,0 +1,58 @@
+.top{
+	width: 6.4rem;
+	background-color: #50bbdb;
+	height: 0.88rem;
+}
+.top .iconfont{
+	font-size: 0.45rem;
+	color: #fff;
+	display: block;
+	padding-top: 0.22rem;
+	padding-left: 0.44rem;
+	float: left;
+}
+.top p{
+	font-size: 0.28rem;
+	color: #fff;
+	padding-top: 0.32rem;
+	text-align: center;
+}
+.foot{
+	width: 6.4rem;
+}
+.foot img{
+	margin-left: 0.4rem;
+	margin-top: 0.19rem;
+	width: 1.45rem;
+	height: 1.47rem;
+	float: left;
+}
+.foot-1 {
+	float: left;
+	width: 2.8rem;
+	margin-top: 0.8rem;
+	margin-left: 0.5rem;
+	border-bottom:1px dashed #ccc;
+}
+.foot-1 h1{
+	font-size: 0.28rem;
+	margin-bottom: 0.14rem;
+}
+.buttom{
+	margin:0 auto;
+	margin-top: 0.24rem;
+	padding-left: 0.41rem;
+	padding-right: 0.52rem;
+	padding-bottom: 1.25rem;
+}
+.buttom-1{
+border:1px dashed #ccc;
+}
+.buttom p{
+	font-size: 0.2rem;
+	line-height: 0.37rem;
+	margin-top: 0.25rem;
+	margin-left: 0.11rem;
+	margin-right: 0.18rem;
+	margin-bottom: 0.37rem;
+}

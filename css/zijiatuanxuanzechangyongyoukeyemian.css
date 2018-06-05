@@ -1,0 +1,258 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+:focus {
+    outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+
+
+
+.wrap{
+    /*margin:0 auto;*/
+    width:6.4rem; 
+    height:100%;
+    /*background-color:#EDEDED;*/
+}
+    header{
+        position:fixed;
+        top:0rem;
+        z-index:99;
+        background-color:#51BBDB;
+    }
+        .header-content{
+            width: 6.4rem;
+            padding-top:0.16rem;
+            padding-bottom: 0.16rem;
+            /*margin-left:0.3rem;*/
+        }
+            .header-return{
+                float:left;
+                width:1.94rem;
+                font-size:0.54rem;               
+            }
+                .header-return a{
+                    margin-left:0.45rem;
+                    color:#F9F0F5;
+                }
+            .header-title{
+                float:left;
+                width:2.47rem;
+                font-size:0.26rem;
+                text-align: center;
+                line-height: 0.36rem;
+                color:#F9F0F5;
+
+            }
+                .header-title h1{
+                    position:relative;
+                    top:0.1rem;
+                }
+            .header-menu a{
+                text-decoration:none;
+                position:relative;
+                top:0.1rem;
+                width: 0.76rem;
+                height: 0.36rem;
+                padding-right:0.21rem;
+                float:right;
+                font-size: 0.26rem;
+                color:#ffffff;
+                text-align:right;
+                line-height:0.36rem;
+            }
+        .main p{
+            margin-top:0.98rem;
+            font-size:0.2rem;
+            color:#333333;
+        }
+            .main-top{
+                
+            }
+                .main-top-content{
+                    margin:0 auto;
+                    width: 1.8rem;
+                    margin-bottom:0.13rem;
+                }
+                    .main-top-content span{
+                        color:#50BBDB;
+                    }
+                        .main-list-item{
+                            border-top:0.01rem solid #DCDCDC;
+                        }
+                        .main-list-item:last-child{
+                            border-bottom:0.01rem solid #DCDCDC;
+                        }
+                        .icon,.main-list-item>p,.checkbox{
+                            float: left;
+                        }
+                        .icon{
+                            margin-left:0.45rem;
+                            width: 0.92rem;
+                        }
+                            .icon img{
+                                width: 0.51rem;
+                            }
+                        .main-list-item>p{
+                            position:relative;
+                            top:-0.5rem;
+                            display:block;
+                            width: 4.51rem;
+                        }
+                        .checkbox{
+                            float: right;
+                            position:relative;
+                            top:0.41rem;
+                            left:-0.2rem;
+                            width: 0.31rem;
+                            height: 0.31rem;
+                            border:0.01rem solid #50BBDB;
+                            border-radius:50%;
+                            cursor:pointer;
+                        }
+                        .checkbox svg{                            
+                            position: relative;
+                            top:0.01rem;
+                            left:-0.44rem;
+                            display: none;
+                            font-size: 0.3rem;
+                            color:#50BBDB;
+                        }
+        footer{
+            position:fixed;
+            bottom:0;
+            width: 6.4rem;
+            height: 0.98rem;
+            background-color:#50BBDB;
+        }
+        .footer-content{
+            width: 2.93rem;
+            margin:0 auto;
+        }
+        .footer-content svg{
+            color:#ffffff;
+            margin-right:0.23rem;
+            display: block;
+            width: 0.38rem;
+            height: 0.98rem;
+            line-height: 0.98rem;
+            float: left;
+            font-size: 0.38rem;
+        }
+        .footer-content span{
+            cursor:pointer;
+            color:#ffffff;
+            display: block;
+            width: 1.7rem;
+            height: 0.98rem;
+            line-height: 0.98rem;
+            float: left;
+            font-size: 0.26rem;
+        }
+    .cover{
+        display:none;
+        line-height: 100%;
+        text-align:center;
+        position:absolute;
+        top:0;
+        left:0;
+        width:6.4rem;
+        height:100%;
+        background-color:rgba(0,0,0,0.5);
+    }
+        .cover-text p,.cover-text button{
+
+            position:absolute;
+            top:50%;
+        }

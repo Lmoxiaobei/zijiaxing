@@ -1,0 +1,509 @@
+a{text-decoration: none;}
+li{list-style: none;}
+.warp{
+			width: 100%
+		}
+	.top{
+		width: 640px;
+		margin:0 auto;
+		background-color: #50bbdb;
+		height: 88px;
+		display: block;
+		
+	}
+	.top .top-1{
+		float: left;
+		padding-top: 17px;
+		padding-left: 14px;
+	}
+	.top .top-2{	
+		float: left;
+	}
+	.top .top-2 p{
+		font-size: 18px;
+		padding-top: 37px;
+		margin-left: 5px;
+		color: #fff;
+		padding-right: 5px;
+	}
+	.top .top-3{
+	float: left;
+	padding-top: 25px;
+	}
+	.top .top-3 a{
+		font-size: 28px;
+	}
+	.top-3-1{
+	width: 167px;
+	background-color: #fff;
+	color: #50bbdb;
+	border:1px solid #fff;
+	padding-left: 36px;
+	padding-right: 49px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+
+	}
+	.top-3-2{
+		color: #fff;
+		margin-left: -9px;
+		border-right: 1px solid #addfee;
+		border-top: 1px solid #addfee;
+		border-bottom: 1px solid #addfee;
+		padding-left: 65px;
+		padding-top: 5px;
+		padding-bottom: 7px;
+		padding-right: 45px;
+	}
+.top .top-4{
+	padding-top: 18px;
+	margin-left: 83px;
+}
+
+.banner{
+	width: 640px;
+	background-image: url('../images/zijiatuan-3.png');
+	height: 289px;
+	margin:0 auto;
+	padding-top: 12px;
+}
+.banner .banner-1 input{
+	margin:0 auto;
+	display: block;
+	background-repeat: no-repeat;
+	position: absolute;
+	top:428px;
+	left:23%;
+
+	
+}
+.banner-1 .iconfont{
+	font-size: 25px;
+	margin-left: 481px;
+	position: absolute;
+	top:438px;
+	color: #62c1de;
+}
+.banner .banner-1-2{
+	position: relative;
+}
+.banner .banner-1-2>ul{
+	list-style: none;
+	overflow: hidden;
+	position: absolute;
+	padding: 10px;
+	border-radius: 20px;
+	left:253px;
+	bottom:-265px;
+}
+.banner .banner-1-2 li{
+	float: left;
+}
+.banner .banner-1-2 ul li a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-right: 22px;
+	background-color: #fff;	
+}
+.banner-2{
+	width: 640px;
+	padding-bottom: 39px;
+	background-color: #fff;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 115px;
+	font-size: 28px;
+}
+.banner .banner-1-2 ul li>a:hover{
+background-color: #50bbdb;
+}
+
+
+
+.banner-3{
+	width: 620px;
+	margin:0 auto;
+}
+.banner-3 p{
+	margin-left: 21px;
+	font-size: 24px;
+	color: #fff;
+	padding-top: 3px;
+	padding-bottom: 3px;	
+}
+.banner-3 span{
+	margin-left: 21px;
+	font-size: 22px;
+	color: #eee;
+	margin-top: 137px;
+	display: block;
+}
+.banner-3 strong{
+	font-size: 30px;
+	margin-left: 18px;
+	margin-top: 12px;
+	display: block;
+}
+.banner-3 .strong{
+	font-size: 22px;
+}
+.banner-3-1{
+	background-image: url('../images/banner-1.png');
+	height: 196px;
+	position: relative;
+	margin-bottom: 64px;
+}
+.banner-3-1-1{
+	background-color: rgba(21,15,15,0.4);
+	
+	}
+.banner-3-1-2{
+	background-color: rgba(21,15,15,0.4);
+}
+.oo{
+		width:100px;
+   height:50px;
+   border-radius:50px 50px 0 0;
+   border: 5px solid #fff;
+   background:#f0884d;
+   position: absolute;
+   left:510px;
+   bottom:0px;
+}
+.oo em,b{
+	color: #fff;
+	padding-top: 27px;
+	margin-left: 9px;
+	display: block;
+	float: left;
+}
+.ooo{
+width:100px;
+   height:50px;
+   border-radius:0 0 50px 50px;
+   border: 5px solid #fff;
+   background:#f0884d;
+   position: absolute;
+   left:510px;
+   bottom:-52px;
+}
+.ooo em{
+	color: #fff;
+	margin-left: 43px;
+	margin-top: 6px;
+	display: block;
+}
+
+
+// 第二张图
+.banner-3-2-2 p{
+	font-size: 24px;
+	color: #fff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.banner-3-2{
+	background-image: url('../images/banner-2.png');
+	height: 196px;
+	margin-top: 10px;
+	position: relative;
+	margin-bottom: 204px;
+}
+.banner-3-2-2{
+	background-color: rgba(21,15,15,0.4);
+}.banner-3-2-3{
+	background-color: rgba(21,15,15,0.4);
+}
+
+.pp{
+		width:100px;
+   height:50px;
+   border-radius:50px 50px 0 0;
+   border: 5px solid #fff;
+   background:#f0884d;
+   position: absolute;
+   left:510px;
+   bottom:0px;
+}
+.pp em,b{
+	color: #fff;
+	padding-top: 27px;
+	margin-left: 9px;
+	display: block;
+	float: left;
+}
+
+.ppp{
+width:100px;
+   height:50px;
+   border-radius:0 0 50px 50px;
+   border: 5px solid #fff;
+   background:#f0884d;
+   position: absolute;
+   left:510px;
+   bottom:-52px;
+}
+.ppp em{
+	color: #fff;
+	margin-left: 43px;
+	margin-top: 6px;
+	display: block;
+}
+.banner-3-2 .aaa{
+	background-color: #f1f1f1;
+	height: 58px;
+	margin-top: 25px;
+}
+.banner-3-2 .aaa .iconfont{
+	font-size: 20px;
+	color: #eb6417;
+	margin-left: 265px;
+padding-top: 18px;
+display: block;
+}
+.banner-3-2 .aaa p{
+	color: #eb6417;
+	margin-left: 299px;
+	font-size: 22px;
+	margin-top: -26px;
+}
+.banner-3 .banner-3-2 .aaa-1 p{
+	color: #333;
+	text-align: center;
+	margin-top: 16px;
+
+}
+
+
+
+// 第三张图
+.banner-3-3 .banner-3-3-3 p{
+	font-size: 24px;
+	color: #fff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.banner-3-3{
+	background-image: url('../images/banner-3.png');
+	height: 196px;
+	margin-top: 10px;
+	position: relative;
+	margin-bottom: 64px;
+}
+.banner-3-3-3{
+	background-color: rgba(21,15,15,0.4);
+}.banner-3-3-4{
+	background-color: rgba(21,15,15,0.4);
+}
+.ii{
+		width:100px;
+   height:50px;
+   border-radius:50px 50px 0 0;
+   border: 5px solid #fff;
+   background:#f0884d;
+   position: absolute;
+   left:510px;
+   bottom:0px;
+}
+.ii em,b{
+	color: #fff;
+	padding-top: 27px;
+	margin-left: 9px;
+	display: block;
+	float: left;
+}
+
+.iii{
+width:100px;
+   height:50px;
+   border-radius:0 0 50px 50px;
+   border: 5px solid #fff;
+   background:#f0884d;
+   position: absolute;
+   left:510px;
+   bottom:-52px;
+}
+.iii em{
+	color: #fff;
+	margin-left: 43px;
+	margin-top: 6px;
+	display: block;
+}
+// 第四张图
+.banner-3-4 .banner-3-4-4 p{
+	font-size: 24px;
+	color: #fff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.banner-3-4{
+	background-image: url('../images/banner-4.png');
+	height: 196px;
+	margin-top: 10px;
+	position: relative;
+	margin-bottom: 64px;
+}
+.banner-3-4-4{
+	background-color: rgba(21,15,15,0.4);
+}.banner-3-4-5{
+	background-color: rgba(21,15,15,0.4);
+}
+.uu{
+		width:100px;
+   height:50px;
+   border-radius:50px 50px 0 0;
+   border: 5px solid #fff;
+   background:#f0884d;
+   position: absolute;
+   left:510px;
+   bottom:0px;
+}
+.uu em,b{
+	color: #fff;
+	padding-top: 27px;
+	margin-left: 9px;
+	display: block;
+	float: left;
+}
+
+.uuu{
+width:100px;
+   height:50px;
+   border-radius:0 0 50px 50px;
+   border: 5px solid #fff;
+   background:#f0884d;
+   position: absolute;
+   left:510px;
+   bottom:-52px;
+}
+.uuu em{
+	color: #fff;
+	margin-left: 43px;
+	margin-top: 6px;
+	display: block;
+}
+// 第五张图
+.banner-3-5 .banner-3-5-5 p{
+	font-size: 24px;
+	color: #fff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.banner-3-5{
+	background-image: url('../images/banner-5.png');
+	height: 196px;
+	margin-top: 10px;
+	position: relative;
+	margin-bottom: 64px;
+}
+.banner-3-5-5{
+	background-color: rgba(21,15,15,0.4);
+}.banner-3-5-6{
+	background-color: rgba(21,15,15,0.4);
+	position: relative;
+}
+.yy{
+		width:100px;
+   height:50px;
+   border-radius:50px 50px 0 0;
+   border: 5px solid #fff;
+   background:#f0884d;
+   position: absolute;
+   left:510px;
+   bottom:0px;
+}
+.yy em,b{
+	color: #fff;
+	padding-top: 27px;
+	margin-left: 9px;
+	display: block;
+	float: left;
+}
+
+.yyy{
+width:100px;
+   height:50px;
+   border-radius:0 0 50px 50px;
+   border: 5px solid #fff;
+   background:#f0884d;
+   position: absolute;
+   left:510px;
+   bottom:-52px;
+}
+.yyy em{
+	color: #fff;
+	margin-left: 43px;
+	margin-top: 6px;
+	display: block;
+}
+
+
+
+.foot{
+	background-color: #f1f1f1;
+	margin:0 auto;
+	width: 640px;
+	margin-top: 10px;
+}
+.foot-1{
+	margin:0 auto;
+	width: 150px;
+}
+.foot-1 a{
+float: left;
+font-size: 20px;
+color: #eb6417;
+margin-top: 26px;
+padding-bottom: 22px;
+margin-left: 50px;
+
+}
+.foot-1 img{
+margin-top: 23px;
+padding-bottom: 22px;
+margin-left: -86px;
+}
+.buttom{
+	width: 640px;
+	background-color: #fff;
+	height: 99px;
+	margin:0 auto;
+}
+.buttom div{
+	float: left;
+	padding-top: 12px;
+}
+.buttom .iconfont{
+	font-size:43px;
+}
+.buttom a{
+	display: block;
+		color: #999;
+}
+.buttom-1{
+	margin-left: 43px;
+}
+.buttom-2{
+	margin-left: 120px;
+}
+.buttom-3{
+	margin-left: 137px;
+}
+.buttom-4{
+	margin-left: 95px;
+}
+.buttom-5{
+	margin-left: 6px;
+}
+.buttom-6{
+	margin-left: 8px;
+}
+.buttom-7{
+	margin-left: 6px;
+}
+.buttom-8{
+	margin-left: -10px;
+}

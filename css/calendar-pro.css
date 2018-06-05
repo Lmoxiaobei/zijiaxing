@@ -1,0 +1,328 @@
+html{
+	background-color:#EDEDED;}
+a{text-decoration: none;}
+.top{
+	width: 6.4rem;
+	background-color: #50bbdb;
+	height: 0.88rem;
+}
+.top .iconfont{
+	font-size:0.45rem;
+	color: #fff;
+	display: block;
+	padding-top: 0.22rem;
+	padding-left:0.44rem;
+	float: left;
+}
+.top p{
+	display: block;
+	position: relative;
+	top:-0.03rem;
+	left:1.4rem;
+	width: 2.7rem;
+	font-size: 0.28rem;
+	font-size:0.28rem;
+	color: #fff;
+	padding-top:0.32rem;
+	text-align: center;
+}
+
+
+
+.demo-box{
+	width:6.4rem;
+	overflow: hidden;
+	background: #EEF5FD;
+	border:0.01rem solid #E6E8EB;
+}
+/*******单独组件样式********/
+.calendar-box *{
+	box-sizing: border-box;
+}
+.ht-rili-head{
+	font-size: 0.2rem;
+
+	overflow: hidden;
+	background-color: #bebebe;
+}
+.ht-rili-querybox{
+	height: 0.79rem;
+}
+.ht-rili-title{
+/*	font-size: 0.2rem;*/
+
+	padding:0.1rem;
+	display: inline-block;
+	max-width: 2rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.ht-rili-datebox{
+	// float: right;
+	margin-left: 1.9rem;
+	margin-top: -1.1rem;
+	display: inline-block;
+	vertical-align: middle;
+	// padding:0.1rem;
+	// text-align: center;
+}
+.ht-rili-date{
+	font-size:0.3rem;
+
+	// text-align: center;
+	// display: inline-block;
+	// width: 1rem;
+	// height:0.19rem;
+	// line-height:0.19rem;
+	// vertical-align: middle;
+}
+.ht-rili-leftarr{
+	display: inline-block;
+	width:0.25rem;
+	height:0.19rem;
+	background: url("../images/left-arr.png") left center no-repeat;
+	background-size: contain;
+	// vertical-align: middle;
+	cursor: pointer;
+}
+.ht-rili-rightarr{
+	display: inline-block;
+	width:0.25rem;
+	height:0.19rem;
+	background: url("../images/right-arr.png") right center no-repeat;
+	background-size: contain;
+	// vertical-align: middle;
+	cursor: pointer;
+}
+.ht-rili-th{
+	font-size: 0.2rem;
+
+	width: 14.25%;
+	float: left;
+	text-align: center;
+	height:0.4rem;
+	line-height:0.4rem;
+	/*background: #E66B14;*/
+	color: #000;
+}
+
+
+
+
+
+
+.ht-rili-td{
+	width: 14.25%;
+	float: left;
+	display: block;
+	text-align: center;
+	height:0.5rem;
+	/*line-height: 50px;*/
+	// background: #EEF5FD;
+	// padding-top:0.5rem;
+	border-bottom:0.01rem solid #ddd;
+	border-right: 0.01rem solid #ddd;
+	// cursor: pointer;
+}
+.ht-rili-body{
+	overflow: hidden;
+}
+
+.ht-rili-day{
+	font-family:Arial;
+	font-size:0.18rem;
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+	padding-top: 0.1rem;
+	width: 100%;
+}
+.ht-rili-money{
+	font-family:Arial;
+	display: inline-block;
+	width: 100%;
+	font-size:0.12rem;
+	float: left;
+	color: #f0851a;
+}
+.ht-rili-td-disabled{
+	color: #BFC4CA;
+}
+.ht-rili-td-active{
+	// border-radius:0.04rem;
+	background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.jiage{
+	font-size: 0.2rem;
+	width:6.4rem;
+	height:1.17rem;
+	background-color: #fff;
+}
+.jiage-1{
+	float: left;
+}
+.jiage-1-1{
+	margin-left:0.34rem;
+}
+.jiage-1-1 p{
+	float: left;
+	font-size:0.24rem;
+	margin-top:0.14rem;
+}
+.jiage-1-1 span{
+	margin-left:0.44rem;
+	color: #f0851a;
+	font-size:0.28rem;
+	margin-top:0.11rem;
+	float: left;
+}
+.jiage-1-2{
+	border:0.01rem solid #50bbdb;
+	margin-left:0.32rem;
+	margin-top:0.08rem;
+	border-radius:0.03rem;
+}
+.jiage-1-2 span{
+	width:0.5rem;height:0.36rem;background:#fff;text-align:center;line-height:0.35rem;color:#50bbdb;display: block;float: left;
+}
+.jiage-1-2 input{
+	font-size: 0.2rem;
+	display: block;
+	width:0.7rem;height:0.3rem;border:0.01rem solid #50bbdb;color:#fff;text-align:center;background-color:#50bbdb;float: left;
+}
+.jiage-1-2 .span-1{
+	border-radius: 0.05rem 0px 0px 0.05rem;
+	border-right: 0px;
+}
+.jiage-1-2 .span-2{
+	border-radius: 0px 0.05rem 0.05rem 0px;
+	border-left: 0px;
+}
+.jiage-2-2 .span-3{
+		border-radius: 0.05rem 0px 0px 0.05rem;
+	border-right: 0px;
+}
+.jiage-2-2 .span-4{
+	border-radius: 0px 0.05rem 0.05rem 0px;
+	border-left: 0px;
+}
+
+
+.jiage-2{
+	float: left;
+	margin-left: 1.2rem;
+}
+.jiage-2-2{
+	margin-left: 0.34rem;
+}
+.jiage-2-1 p{
+	float: left;
+	font-size: 0.24rem;
+	margin-top: 0.14rem;
+	margin-left: 0.32rem;
+}
+.jiage-2 .iconfont {
+	float: left;
+	color: #50bbdb;
+	font-size: 0.22rem;
+	margin-top: 0.17rem;
+	margin-left: 0.07rem;
+}
+.jiage-2-1 span{
+	margin-left: 0.14rem;
+	color: #f0851a;
+	font-size: 0.28rem;
+	margin-top: 0.11rem;
+	float: left;
+}
+.jiage-2-2{
+	border:0.01rem solid #50bbdb;
+	margin-left: 0.32rem;
+	margin-top: 0.08rem;
+	border-radius:0.03rem;
+}
+.jiage-2-2 span{
+	width:0.5rem;height:0.36rem;background:#fff;text-align:center;line-height:0.35rem;color:#50bbdb;display: block;float: left;
+}
+.jiage-2-2 input{
+	font-size: 0.2rem;
+	width:0.7rem;height:0.3rem;border:0.01rem solid #50bbdb;color:#fff;text-align:center;background-color:#50bbdb;float: left;
+}
+.rili{
+	width:6.4rem;
+	background-color: #fff;
+	padding-bottom:0.26rem;
+	padding-top:0.18rem;
+	border-top:0.01rem solid #dcdcdc;
+}
+.rili .iconfont{
+	float: left;
+	color: #50bbdb;
+	font-size:0.22rem;
+	margin-left:0.36rem;
+	margin-right: 19px;
+}
+.rili p{
+	font-size:0.2rem;
+}
+.rili-1{
+	width:6.4rem;
+	background-color: #ededed;
+	height:0.52rem;
+	border-bottom:0.01rem solid #dcdcdc;
+}
+.dibu{
+	width: 6.4rem;
+	background-color:#ffffff;
+	position: fixed;
+	bottom:0;
+}
+.dibu-1{float: left;margin-top:0.25rem;
+font-size: 0.24rem;
+color:#333333;}
+.dibu p{
+	font-size:0.26rem;
+	margin-left:0.2rem;
+	font-weight:bold;
+}
+.dibu span{
+	font-size:0.26rem;
+	margin-left: 0.2rem;
+	font-weight:bold;
+	margin-top: 0.12rem;
+}
+.dibu a{
+	margin-right:0.26rem;
+	float: right;
+	font-size: 0.28rem;
+	display: block;
+	width: 1.72rem;
+	/*height: 0.66rem;*/
+	padding: 0.19rem 0 0.19rem 0.63rem;
+	background-color: #50bbdb;
+	/*font-size: 28px;*/
+	color: #fff;
+	border-radius:0.1rem;
+	/*margin-left: 1.18rem;*/
+	margin-top: 0.1rem;
+	margin-bottom: 0.17rem;
+	display: block;
+}
+/*.dibu-2{float: left;}*/
+/*.dibu-2 a{
+	
+
+}*/

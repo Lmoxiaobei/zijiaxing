@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta id="eqMobileViewport" name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>选择支付方式</title>
+		<link rel="stylesheet" type="text/css" href="css/chushihua.css">
+		<link rel="stylesheet" type="text/css" href="css/qingfudong.css">
+		<link rel="stylesheet" type="text/css" href="css/zhifu.css">	
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+		<script src="fonts/font_r930psiy94gw4s4i/iconfont.js"></script>
+		<script src="js/zepto.min.js "></script>
+		<style type="text/css">
+			.icon {
+			   width: 1em; height: 1em;
+			   vertical-align: -0.15em;
+			   fill: currentColor;
+			   overflow: hidden;
+			}
+		</style>
+<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth/6.4 + 'px'
+	</script>		
+</head>
+<body>
+		<div class="top clearfix">
+			<a href="#"><i class="iconfont icon-fanhui"></i></a>
+			<p>选择支付方式</p>
+		</div>	
+
+		<div class="zhong">
+			<p>订单总额： ￥5920</p>
+		</div>
+	
+		<div class="zhong-1"></div>
+
+<div class="zhifu clearfix">
+				<div class="zhifu-1 clearfix">
+					<div class="zhifu-1-1 clearfix">
+						<img src="images/zhifubao.png" alt="">
+						<p>支付宝支付</p>		
+					</div>
+					<div class="zhifu-1-2 clearfix">
+						<i class="iconfont icon-tuijian"></i>
+							<a href="javascript:void(0)" class="checkBox">
+								<svg class="icon" aria-hidden="true">
+								  <use xlink:href="#icon-diandian"></use>
+								</svg>
+							</a>
+					</div>		
+				</div>
+
+				<div class="zhifu-2 clearfix">
+					<div class="zhifu-2-1 clearfix">
+						<img src="images/weixin.png" alt="">
+						<p>微信支付</p>
+						<a href="javascript:void(0)" class="checkBox">
+								<svg class="icon" aria-hidden="true">
+								  <use xlink:href="#icon-diandian"></use>
+								</svg>
+							</a>
+					</div>
+					
+				</div>		
+
+
+				<div class="zhifu-3 clearfix">
+					<div class="zhifu-3-1 clearfix">
+						<img src="images/yinlian.png" alt="">
+						<p>银联支付</p>
+						<a href="javascript:void(0)" class="checkBox">
+								<svg class="icon" aria-hidden="true">
+								  <use xlink:href="#icon-diandian"></use>
+								</svg>
+							</a>
+					</div>
+					
+				</div>						
+
+</div>
+
+<div class="ganxie"></div>
+
+<div class="daojishi clearfix">
+	<div class="daojishi-0">
+		<div class="daojishi-1">
+			<p>支付：  ￥5920</p>
+			<span>剩余</span>
+			<span></span>
+			<span>:</span>
+			<span></span>
+			<span>:</span>
+			<span></span>
+			<span>请尽快付款</span>
+		</div>
+		<div class="daojishi-2"><a href="javascript:void(0)" class="fukuan">付款</a></div>
+	</div>
+</div>
+
+
+
+	<script src="js/zhifu.js"></script>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+	<script>
+		var targetHour = 24,targetMinute =0 , targetSecond = 0
+				function time(){
+				var date = new Date()  
+				var hour = 	 date.getHours()
+				var Minute = date.getMinutes()
+				var second = date.getSeconds()
+				var targetTimes = targetHour*3600+targetMinute*60+targetSecond
+				var nowTimes = hour*3600+Minute*60+second
+				var showTimes = targetTimes - nowTimes
+				var showHour = Math.floor(showTimes/3600)
+				var showMinute = Math.floor(showTimes%3600/60)
+				var showSecond = showTimes%3600%60
+				if(showHour<10){
+					showHour = '0'+ showHour
+				}
+				if(showMinute<10){
+					showMinute = '0'+ showMinute
+				}			
+				if(showSecond<10){
+					showSecond = '0'+ showSecond
+				}								
+				if(showTimes<=0){
+				clearInterval(loop)
+				}		
+				$('span').eq(1).text(showHour)
+				$('span').eq(3).text(showMinute)
+				$('span').eq(5).text(showSecond)	
+				}
+				time()
+				var  loop = setInterval(time,1000)
+
+
+
+
+	</script>
+
+
+
+</body>
+</html>
